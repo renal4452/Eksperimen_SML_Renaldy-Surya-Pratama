@@ -12,7 +12,7 @@ from sklearn.compose import ColumnTransformer
 # =========================
 # CONFIG
 # =========================
-RAW_DATA_PATH = "dataset_raw/bank_raw.csv"
+RAW_DATA_PATH = "bank_raw/bank_raw.csv"
 OUTPUT_DIR = "preprocessing/bank_preprocessing"
 TARGET_COL = "deposit"
 RANDOM_STATE = 42
@@ -121,3 +121,4 @@ def main():
 # =========================
 if __name__ == "__main__":
     main()
+
